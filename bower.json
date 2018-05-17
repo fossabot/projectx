@@ -1,0 +1,27 @@
+{
+  "name": "projectx",
+  "description": "shop",
+  "main": "index.js",
+  "authors": [
+    "Daniel Nehrig <daniel.nehrig@redteclab.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "shop",
+    "vue",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/BIF12A/projectx",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "vue": "^2.5.16"
+  }
+}
