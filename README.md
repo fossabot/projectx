@@ -11,12 +11,12 @@ to the VUE frontend
 
 ## Commands
 - Root Repository
- - yarn start
- - yarn prod
- - yarn watch
- - ywarn watch-wp
+  - yarn start
+  - yarn prod
+  - yarn watch
+  - yarn watch-wp
 - Vue Client
- - yarn build
- - yarn dev
- - yarn test
- - yarn start
+  - yarn build
+  - yarn dev
+  - yarn test
+  - yarn start
