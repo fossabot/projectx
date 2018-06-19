@@ -5,7 +5,9 @@
   "main": "./dist/server/index.js",
   "scripts": {
     "start": "nodemon ./dist/server/index.js",
-    "prod": "tsc && cd src/client/ && yarn build"
+    "prod": "tsc && cd src/client/ && yarn build",
+    "watch-wp": "webpack --watch",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
