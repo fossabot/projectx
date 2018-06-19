@@ -1,19 +1,39 @@
 {
   "name": "projectx",
   "version": "1.0.0",
-  "description": "Project X",
-  "main": "index.js",
+  "description": "Project X Shop",
+  "main": "./dist/server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./dist/server/index.js",
+    "prod": "tsc && cd src/client/ && yarn build",
+    "watch-wp": "webpack --watch",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BIF12A/projectx.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Daniel Nehrig, Omar",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BIF12A/projectx/issues"
   },
-  "homepage": "https://github.com/BIF12A/projectx#readme"
+  "homepage": "https://github.com/BIF12A/projectx#readme",
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.28",
+    "@types/koa-static": "^4.0.0",
+    "@types/koa-views": "^2.0.3",
+    "@types/node": "^10.3.4",
+    "@types/webpack": "^4.4.1",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.3",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "webpack": "^4.12.0"
+  }
 }
