@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/BIF12A/projectx/issues"
   },
-  "homepage": "https://github.com/BIF12A/projectx#readme"
+  "homepage": "https://github.com/BIF12A/projectx#readme",
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.28",
+    "@types/node": "^10.3.4",
+    "@types/webpack": "^4.4.1"
+  },
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "webpack": "^4.12.0"
+  }
 }
