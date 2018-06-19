@@ -1,15 +1,22 @@
-# projectx
+# Database Project Shop
 
-## Shop
-Simple SQL Querys given over an API
-to the VUE frontend
+## Synopsis
 
-## Installation
+Simple SQL Querys given over an API to the VUE frontend
+using mySQL
+
+## Features
+
+Product Page, Edit Product
+
+### Installation
+
 - yarn install || npm install
 - yarn prod || npm run prod
 - yarn start || npm run start
 
-## Commands
+### Commands
+
 - Root Repository
   - yarn start
   - yarn prod
