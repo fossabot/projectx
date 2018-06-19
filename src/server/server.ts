@@ -1,6 +1,7 @@
 import * as Koa from 'koa'
 import * as Router from 'koa-router'
 import * as body from 'koa-body'
+import * as views from 'koa-views'
 import * as assets from 'koa-static'
 
 import ViewRouter from './routes/ViewRouter'
@@ -34,10 +35,14 @@ class Server {
     // Body Parser
     this.app.use(body({multipart:true}));
 
+    this.app.use(views(__dirname + '/../client/', {
+      extension: 'html'
+    }));
+
     this.app.use(this.router.routes())
     .use(this.router.allowedMethods());
 
-    this.app.use(assets(__dirname + '../client/'));
+    this.app.use(assets(__dirname + '/../client/'));
 
   }
 

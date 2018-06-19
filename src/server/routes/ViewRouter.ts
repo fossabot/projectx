@@ -8,14 +8,14 @@ export class ViewRouter {
     this.routes()
   }
 
-  private async main (ctx, next): Promise<void> {
+  private async main (ctx: Koa.Context, next): Promise<void> {
     await ctx.render('./index.html',{
       info: 'test'
     })
   }
 
   private routes (): void {
-    this.router.get('/', this.main)
+    this.router.get('', this.main)
   }
 }
 const viewRouter: ViewRouter = new ViewRouter()
