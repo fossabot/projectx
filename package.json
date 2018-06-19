@@ -4,8 +4,8 @@
   "description": "Project X Shop",
   "main": "./dist/server/index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "nodemon ./dist/server/index.js"
+    "start": "nodemon ./dist/server/index.js",
+    "prod": "tsc && cd src/client/ && yarn build"
   },
   "repository": {
     "type": "git",
@@ -20,13 +20,16 @@
   "devDependencies": {
     "@types/koa": "^2.0.46",
     "@types/koa-router": "^7.0.28",
+    "@types/koa-static": "^4.0.0",
     "@types/node": "^10.3.4",
     "@types/webpack": "^4.4.1",
     "nodemon": "^1.17.5"
   },
   "dependencies": {
     "koa": "^2.5.1",
+    "koa-body": "^4.0.3",
     "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
     "webpack": "^4.12.0"
   }
 }
