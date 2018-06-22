@@ -11,9 +11,16 @@ Product Page, Edit Product
 
 ### Installation
 
+## Local Testing
+
 - yarn install || npm install
 - yarn prod || npm run prod
 - yarn start || npm run start
+
+## Dev Testing
+
+- yarn deploy
+- http://devdb.dnehrig.com
 
 ### Commands
 
@@ -22,6 +29,7 @@ Product Page, Edit Product
   - yarn prod
   - yarn watch
   - yarn watch-wp
+  - yarn deploy
 - Vue Client
   - yarn build
   - yarn dev
