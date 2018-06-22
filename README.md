@@ -1,5 +1,7 @@
 # Database Project Shop
 
+[![Travis](https://travis-ci.org/BIF12A/projectx.svg?branch=master)](https://github.com/bif12a/projectx)
+
 ## Synopsis
 
 Simple SQL Querys given over an API to the VUE frontend
