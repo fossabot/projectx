@@ -8,6 +8,8 @@
     "prod": "tsc && cd src/client/ && yarn build",
     "watch-wp": "webpack --watch",
     "watch": "tsc --watch",
+    "docker-build": "docker build -t devdb .",
+    "docker-run": "docker run -p 3112:3112 devdb",
     "deploy": "./deploy.sh"
   },
   "repository": {

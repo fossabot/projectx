@@ -4,5 +4,5 @@ path='~/progs/devDB/'
 arrow='=====>'
 
 printf "$arrow Deploying\n"
-ssh -l ${user} ${server} "~/progs/deploy.sh"
+ssh -l ${user} ${server} "/home/devDB/progs/deploy.sh"
 printf "$arrow Deployment Finished\n"
