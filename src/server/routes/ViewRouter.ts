@@ -2,7 +2,7 @@ import * as Koa from 'koa'
 import * as Router from 'koa-router'
 
 export class ViewRouter {
-  router: Router
+  public router: Router
   constructor () {
     this.router = new Router()
     this.routes()

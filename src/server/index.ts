@@ -5,7 +5,7 @@ import Server from './server'
 
 debug('koa:server')
 
-const port: number = 3000
+const port: number = 3112
 
 const server = http.createServer(Server.callback())
 
