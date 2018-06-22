@@ -9,4 +9,6 @@ before_script:
   - "npm install nodemon --global"
 
 script:
+  - "cd ./src/client/ && npm install"
+  - "cd ../../"
   - "yarn prod"
