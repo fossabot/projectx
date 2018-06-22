@@ -2,6 +2,14 @@
 
 [![Travis](https://travis-ci.org/BIF12A/projectx.svg?branch=master)](https://github.com/bif12a/projectx)
 
+- [Database Project Shop](#database-project-shop)
+  - [Synopsis](#synopsis)
+  - [Features](#features)
+  - [Installation](#installation)
+    - [Local Testing](#local-testing)
+    - [Dev Testing](#dev-testing)
+  - [Commands](#commands)
+
 ## Synopsis
 
 Simple SQL Querys given over an API to the VUE frontend
