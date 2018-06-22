@@ -4,6 +4,8 @@ node_js:
   - 9.11
   - 10
 
+before_script:
+  - "npm install"
+
 script:
-  - npm install
-  - yarn prod
+  - "yarn prod"
