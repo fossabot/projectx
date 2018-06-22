@@ -7,22 +7,24 @@ using mySQL
 
 ## Features
 
-Product Page, Edit Product
+- Product Page
+- Add Product
+- Edit Product
 
-### Installation
+## Installation
 
-## Local Testing
+### Local Testing
 
 - yarn install || npm install
 - yarn prod || npm run prod
 - yarn start || npm run start
 
-## Dev Testing
+### Dev Testing
 
 - yarn deploy
 - http://devdb.dnehrig.com
 
-### Commands
+## Commands
 
 - Root Repository
   - yarn start
