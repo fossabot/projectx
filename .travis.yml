@@ -5,7 +5,8 @@ node_js:
   - 10
 
 before_script:
-  - "npm install"
+  - "npm install typescript --global"
+  - "npm install nodemon --global"
 
 script:
   - "yarn prod"
