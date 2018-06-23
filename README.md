@@ -29,7 +29,12 @@ using mySQL
 - yarn prod || npm run prod
 - yarn start || npm run start
 
-### Dev Testing
+### Docker Testing
+
+- yarn docker-build
+- yarn docker-run
+
+### Dev Server Testing
 
 - yarn deploy
 - http://devdb.dnehrig.com
