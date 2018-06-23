@@ -1,6 +1,7 @@
 # Database Project Shop
 
 [![Travis](https://travis-ci.org/BIF12A/projectx.svg?branch=master)](https://github.com/bif12a/projectx)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBIF12A%2Fprojectx.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FBIF12A%2Fprojectx?ref=badge_shield)
 
 - [Database Project Shop](#database-project-shop)
   - [Synopsis](#synopsis)
@@ -52,3 +53,7 @@ using mySQL
   - yarn dev
   - yarn test
   - yarn start
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBIF12A%2Fprojectx.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FBIF12A%2Fprojectx?ref=badge_large)
